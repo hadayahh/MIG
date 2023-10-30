@@ -1,0 +1,80 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    margin: 50px;  
+}
+
+#albums{
+    display: flex;
+    justify-content:space-around
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+#socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    
+}
+
+.ig > img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -100px;
+    right: 100px;
+}
+
+.soundcloud > img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -100px;
+    right: 100px;
+}
+
+video{
+    margin: auto;
+    display: block;
+    width: 50%;
+}
+
+#hits{
+    display: flex;
+    justify-content: center;
+    margin: 40px; 
+}
+
+button{
+    margin-top: 5rem;
+    padding: 2rem 4rem;
+    border: 0.2rem solid blue;
+    color: black;
+    border-radius: 3rem;
+    background: beige;
+    transform: translateX(50rem);
+}
+
+button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+button:focus{
+    background-color: black;
+}
